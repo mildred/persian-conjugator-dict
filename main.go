@@ -50,7 +50,7 @@ func main() {
 	baseUrl := flag.String("url", "http://www.jahanshiri.ir/pvc/conjugate?script=p&level=d", "URL of the service to query")
 	lang := flag.String("lang", "fa", "Language to use (en, fa, fr, ...)")
 	wordlist := flag.String("wordlist", "words.txt", "File containing the list of word (one per line) to query")
-	dictfile := flag.String("dict", "dict.txt", "Dictionary file (format is \"word\\tdefinition\\n\"...)")
+	dictfile := flag.String("dict", "persian-verbs.txt", "Dictionary file (format is \"word\\tdefinition\\n\"...)")
 	replace := flag.Bool("replace", false, "Force to query again existing words in dictionary")
 	flag.Parse()
 
